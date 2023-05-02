@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+}
+.div-1 {
+    display: flex;
+    background-color:#FFFFFF ;
+    width: 50vw;
+    height: 100vh;
+}
+
+.div-2 {
+    display: flex;
+    background-color: #D6BDA6;
+    width: 50vw;
+    height: 100vh;
+}
+
+img {
+    height: 700px;
+    width: 650px;
+    position: relative;
+    bottom: -2.8em;
+    right: -22em;
+}
