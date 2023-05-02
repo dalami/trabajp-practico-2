@@ -1,36 +1,33 @@
-* {
-    margin: 0;
-    padding: 0;
+
+
+html {
+    background-color: black;
 }
 
-body {
-    display: flex;
-    
-}
-
-.container{
-    display: flex;
-    flex-direction: row;
-    width: 100vw;
-}
-.div-1 {
-    display: flex;
-    background-color:#FFFFFF ;
-    width: 50vw;
-    height: 100vh;
-}
-
-.div-2 {
-    display: flex;
+section {
     background-color: #D6BDA6;
-    width: 50vw;
+    width: 90%;
+    margin: 0 auto;
     height: 100vh;
 }
+.nav-1 {
+    width: 65%;
+    height: 100vh;
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+   
+}
+
+
+
+
+
 
 img {
+    width: 700px;
     height: 700px;
-    width: 650px;
     position: relative;
-    bottom: -2.8em;
-    right: -22em;
+    top: -700px;
+    right: -550px;
 }
