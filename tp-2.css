@@ -26,7 +26,7 @@ section {
 .nav-1 a{
     margin-top: 2.5em;
     font-size: smaller;
-    margin-right: 2.188em;
+    margin-right: 2.188rem;
     text-decoration: none;
     color: #5D5D5D;
 }
@@ -74,10 +74,10 @@ button{
 .scale {
     display: flex;
     flex-direction: column;
-    margin: 3.75em 0px ;
-    font-size: 0.5em;
+    margin: 3.75rem 0px ;
+    font-size: 0.5rem;
     position: relative;
-    left: -0.813em;
+    left: -0.855rem;
    
 }
 
@@ -100,7 +100,7 @@ h1 {
     top: -31.25rem;
     right: -7.5rem;
     font-size: 4.375rem;
-    margin: 0 2.5em;
+    margin: 0 2.5rem;
     font-weight: 450;
 }
 
