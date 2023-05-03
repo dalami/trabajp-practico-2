@@ -2,6 +2,9 @@
 
 html {
     background-color: black;
+    overflow-y: hidden;
+    
+    
 }
 
 section {
@@ -15,12 +18,38 @@ section {
     height: 100vh;
     background-color: #FFFFFF;
     display: flex;
-    flex-direction: column;
-   
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+}
+.nav-1 a{
+    margin-top: 40px;
+    font-size: smaller;
+    margin-right: 35px;
+    text-decoration: none;
+    color: #5D5D5D;
 }
 
+h3 {
+    margin-right: 50px;
+    font-size: 30px;
+}
 
+button{
+    height: 30px;
+}
 
+.nav-2 {
+    position: relative;
+    top: -705px;
+    right: -990px;
+        
+}
+
+.spn {
+    margin: 0 10px 0px 20px;
+    
+}
 
 
 
@@ -30,4 +59,48 @@ img {
     position: relative;
     top: -700px;
     right: -550px;
+}
+
+h1 {
+    position: relative;
+    top: -500px;
+    right: -120px;
+    font-size: 70px;
+    margin: 0 40px;
+    font-weight: 450;
+}
+
+.btn {
+    position: relative;
+    top: -450px;
+    right: -165px;
+    width: 140px;
+    height: 45px;
+    border: 2px solid black;
+    font-size: large;
+}
+.texto {
+    width: 350px;
+    color: #5D5D5D;
+}
+
+p {
+    position: relative;
+    top: -350px;
+    right:-165px ;
+}
+
+@media (max-width:480px){
+    img{
+        display: none;
+    }
+    .nav-1 {
+        display:block;
+    }
+    .nav-2{
+        flex-direction: column;
+    }
+    section{
+        background-color: white;
+    }
 }
